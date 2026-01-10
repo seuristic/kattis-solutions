@@ -20,3 +20,5 @@ This repository contains solutions to various Kattis competitive programming pro
 | Snapper Easy    | bit operations  | [snappereasy](https://github.com/seuristic/kattis-solutions/blob/main/snappereasy.cpp)     |
 | Snapper Hard    | bit operations  | [snapperhard](https://github.com/seuristic/kattis-solutions/blob/main/snapperhard.cpp)     |
 | Sort of Sorting | custom sorting  | [sortofsorting](https://github.com/seuristic/kattis-solutions/blob/main/sortofsorting.cpp) |
+| Restaurant      | stack           | [restaurant](https://github.com/seuristic/kattis-solutions/blob/main/restaurant.cpp)       |
+| Throwns         | stack           | [throwns](https://github.com/seuristic/kattis-solutions/blob/main/throwns.cpp)             |
