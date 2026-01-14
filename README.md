@@ -23,3 +23,5 @@ This repository contains solutions to various Kattis competitive programming pro
 | restaurant    | stack           | [restaurant](https://github.com/seuristic/kattis-solutions/blob/main/restaurant.cpp)       |
 | throwns       | stack           | [throwns](https://github.com/seuristic/kattis-solutions/blob/main/throwns.cpp)             |
 | bungeebuilder | stack           | [bungeebuilder](https://github.com/seuristic/kattis-solutions/blob/main/bungeebuilder.cpp) |
+| sim           | linked list     | [sim](https://github.com/seuristic/kattis-solutions/blob/main/sim.cpp)                     |
+| teque         | deque           | [teque](https://github.com/seuristic/kattis-solutions/blob/main/teque.cpp)                 |
