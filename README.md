@@ -27,3 +27,4 @@ This repository contains solutions to various Kattis competitive programming pro
 | teque            | deque           | [teque](https://github.com/seuristic/kattis-solutions/blob/main/teque.cpp)                       |
 | knigsoftheforest | priority queue  | [knigsoftheforest](https://github.com/seuristic/kattis-solutions/blob/main/knigsoftheforest.cpp) |
 | stockprices      | priority queue  | [stockprices](https://github.com/seuristic/kattis-solutions/blob/main/stockprices.cpp)           |
+| alphabetspam     | hashmap         | [alphabetspam](https://github.com/seuristic/kattis-solutions/blob/main/alphabetspam.cpp)         |
