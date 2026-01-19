@@ -28,3 +28,5 @@ This repository contains solutions to various Kattis competitive programming pro
 | knigsoftheforest | priority queue  | [knigsoftheforest](https://github.com/seuristic/kattis-solutions/blob/main/knigsoftheforest.cpp) |
 | stockprices      | priority queue  | [stockprices](https://github.com/seuristic/kattis-solutions/blob/main/stockprices.cpp)           |
 | alphabetspam     | hashmap         | [alphabetspam](https://github.com/seuristic/kattis-solutions/blob/main/alphabetspam.cpp)         |
+| esej             | hashmap         | [esej](https://github.com/seuristic/kattis-solutions/blob/main/esej.cpp)                         |
+| greetingcard     | hashmap         | [greetingcard](https://github.com/seuristic/kattis-solutions/blob/main/greetingcard.cpp)         |
