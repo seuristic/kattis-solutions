@@ -1,98 +1,54 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ALL(x) begin(x), end(x)
-#define RALL(x) rbegin(x), rend(x)
-#define SZ(x) (int)(x).size()
-#define REP(i, a, b) for (int i = (a); i <= (b); ++i)
-#define PER(i, a, b) for (int i = (a); i >= (b); --i)
-#define FORE(x, a) for (auto x : (a))
+struct Point {
+  long long x, y;
+};
 
-using ll = long long;
-using vi = vector<int>;
-using ii = pair<int, int>;
-using vii = vector<ii>;
-using str = string;
-
-constexpr char ENDL = '\n';
-constexpr double EPS = 1e-9;
-constexpr int MOD = 1e9 + 7;
-constexpr int INF = 1e9;
-constexpr ll LLINF = 1e18;
-
-ll encode(ii p) {
-    return ((ll)p.first << 31) | p.second;
-}
+long long encode(long long a, long long b) { return (long long)((a << 31) + b); }
 
 void solve() {
-    int n;
-    cin >> n;
-    vii points(n);
-    unordered_set<ll> pset, hset;
-    REP(i, 0, n - 1) {
-        cin >> points[i].first >> points[i].second;
-        pset.insert(encode(points[i]));
-    }
+  int n;
+  cin >> n;
+  vector<Point> points(n);
+  unordered_set<long long> point_set, next_present;
+  for (auto& [x, y] : points) {
+    cin >> x >> y;
+    point_set.insert(encode(x, y));
+  }
 
-    int result = 0;
-    FORE(p, points) {
-        ll k = encode(p);
-        if (hset.count(k)) continue;
-        hset.insert(k);
-        int dx = 1680, dy = 1118;
-        REP(l, 0, 1) {
-            REP(i, 0, 3) {
-                int x = p.first, y = p.second;
-                if (i & 1) {
-                    y -= dy;
-                } else {
-                    y += dy;
-                }
-                if (i & 2) {
-                    x -= dx;
-                } else {
-                    x += dx;
-                }
-                ll k_new = encode({x, y});
-                if (pset.count(k_new) && !hset.count(k_new)) {
-                    ++result;
-                }
-            }
-            swap(dx, dy);
-        }
-        dx = 2018, dy = 0;
-        REP(l, 0, 1) {
-            REP(i, 0, 1) {
-                int x = p.first, y = p.second;
-                if (l & 1) {
-                    if (i & 1) {
-                        y -= dy;
-                    } else {
-                        y += dy;
-                    }
-                } else {
-                    if (i & 1) {
-                        x -= dx;
-                    } else {
-                        x += dx;
-                    }
-                }
-                ll k_new = encode({x, y});
-                if (pset.count(k_new) && !hset.count(k_new)) {
-                    ++result;
-                }
-            }
-            swap(dx, dy);
-        }
-    }
+  int result = 0;
+  for (auto& [x, y] : points) {
+    long long key = encode(x, y);
+    if (next_present.count(key)) continue;
+    next_present.insert(key);
 
-    cout << result << ENDL;
+    vector<pair<int, int>> possible_dist = {
+        {2018, 0},
+        {-2018, 0},
+        {0, 2018},
+        {0, -2018},
+        {1680, 1118},
+        {1680, -1118},
+        {-1680, 1118},
+        {-1680, -1118},
+        {1118, 1680},
+        {1118, -1680},
+        {-1118, 1680},
+        {-1118, -1680}};
+
+    for (auto [dx, dy] : possible_dist) {
+      long long key2 = encode(x + dx, y + dy);
+      if (point_set.count(key2) && !next_present.count(key2)) { ++result; }
+    }
+  }
+
+  cout << result << endl;
 }
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    int tc = 1;
-    // cin >> tc;
-    while (tc--) solve();
+  cin.tie(nullptr)->sync_with_stdio(false);
+  int tc = 1;
+  // cin >> tc;
+  while (tc--) solve();
 }

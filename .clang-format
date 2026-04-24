@@ -1,8 +1,42 @@
+---
+Language: Cpp
 BasedOnStyle: Google
-IndentWidth: 4
-ColumnLimit: 0
+IndentWidth: 2
+ColumnLimit: 120
+Standard: Latest
+
+# Braces and Indentation
 BreakBeforeBraces: Attach
+NamespaceIndentation: None
+AccessModifierOffset: -2
+AlignAfterOpenBracket: AlwaysBreak
+BinPackArguments: false
+BinPackParameters: false
+
+# Inline/Short stuff (Common in Competitive Programming)
 AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: true
 AllowShortFunctionsOnASingleLine: All
 AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
+
+# Alignment and Spacing
+DerivePointerAlignment: false
+PointerAlignment: Left
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesInAngles: false
+SpacesInContainerLiterals: false
+SpacesInCStyleCastParentheses: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+
+# Includes
+SortIncludes: true
+
+# Cleanup
+TabWidth: 2
+UseTab: Never
+...
