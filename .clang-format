@@ -2,30 +2,27 @@
 Language: Cpp
 BasedOnStyle: Google
 IndentWidth: 2
-ColumnLimit: 120
 Standard: Latest
 
 # Braces and Indentation
 BreakBeforeBraces: Attach
-NamespaceIndentation: None
+NamespaceIndentation: All
 AccessModifierOffset: -2
-AlignAfterOpenBracket: AlwaysBreak
+AlignAfterOpenBracket: BlockIndent
 BinPackArguments: false
-BinPackParameters: false
+BinPackParameters: true
 
-# Inline/Short stuff (Common in Competitive Programming)
-AllowShortIfStatementsOnASingleLine: true
+# Inline/Short stuff
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
 AllowShortLoopsOnASingleLine: true
-AllowShortFunctionsOnASingleLine: All
-AllowShortBlocksOnASingleLine: Always
+AllowShortFunctionsOnASingleLine: Inline
 AllowShortCaseLabelsOnASingleLine: true
-KeepEmptyLinesAtTheStartOfBlocks: false
+AllowShortBlocksOnASingleLine: Empty
 MaxEmptyLinesToKeep: 1
 
 # Alignment and Spacing
 DerivePointerAlignment: false
 PointerAlignment: Left
-SpaceBeforeParens: ControlStatements
 SpaceInEmptyParentheses: false
 SpacesInAngles: false
 SpacesInContainerLiterals: false

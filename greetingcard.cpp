@@ -5,7 +5,9 @@ struct Point {
   long long x, y;
 };
 
-long long encode(long long a, long long b) { return (long long)((a << 31) + b); }
+long long encode(long long a, long long b) {
+  return (long long)((a << 31) + b);
+}
 
 void solve() {
   int n;
@@ -35,11 +37,15 @@ void solve() {
         {1118, 1680},
         {1118, -1680},
         {-1118, 1680},
-        {-1118, -1680}};
+        {-1118, -1680}
+    };
 
     for (auto [dx, dy] : possible_dist) {
       long long key2 = encode(x + dx, y + dy);
-      if (point_set.count(key2) && !next_present.count(key2)) { ++result; }
+      if (point_set.count(key2) && !next_present.count(key2)) ++result;
+      else {
+        cout << "cout" << endl;
+      }
     }
   }
 
