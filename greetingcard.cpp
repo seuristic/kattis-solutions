@@ -13,7 +13,7 @@ void solve() {
   int n;
   cin >> n;
   vector<Point> points(n);
-  unordered_set<long long> point_set, next_present;
+  unordered_set<long long> point_set, covered_set;
   for (auto& [x, y] : points) {
     cin >> x >> y;
     point_set.insert(encode(x, y));
@@ -22,10 +22,10 @@ void solve() {
   int result = 0;
   for (auto& [x, y] : points) {
     long long key = encode(x, y);
-    if (next_present.count(key)) continue;
-    next_present.insert(key);
+    if (covered_set.count(key)) continue;
+    covered_set.insert(key);
 
-    vector<pair<int, int>> possible_dist = {
+    vector<pair<int, int>> ham_dist = {
         {2018, 0},
         {-2018, 0},
         {0, 2018},
@@ -40,12 +40,9 @@ void solve() {
         {-1118, -1680}
     };
 
-    for (auto [dx, dy] : possible_dist) {
+    for (auto [dx, dy] : ham_dist) {
       long long key2 = encode(x + dx, y + dy);
-      if (point_set.count(key2) && !next_present.count(key2)) ++result;
-      else {
-        cout << "cout" << endl;
-      }
+      if (point_set.count(key2) && !covered_set.count(key2)) ++result;
     }
   }
 
