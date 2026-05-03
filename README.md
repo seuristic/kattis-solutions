@@ -4,29 +4,30 @@ This repository contains solutions to various Kattis competitive programming pro
 
 ## Solutions
 
-| Problem ID       | Approach        | Solution                                                                                         |
-| ---------------- | --------------- | ------------------------------------------------------------------------------------------------ |
-| bitbybit         | bit operations  | [bitbybit](https://github.com/seuristic/kattis-solutions/blob/main/bitbybit.cpp)                 |
-| bread            | inversion count | [bread](https://github.com/seuristic/kattis-solutions/blob/main/bread.cpp)                       |
-| classy           | custom sorting  | [classy](https://github.com/seuristic/kattis-solutions/blob/main/classy.cpp)                     |
-| funhouse         | simulation      | [funhouse](https://github.com/seuristic/kattis-solutions/blob/main/funhouse.cpp)                 |
-| hypercube        | bit operations  | [hypercube](https://github.com/seuristic/kattis-solutions/blob/main/hypercube.cpp)               |
-| magicsequence    | radix sort      | [magicsequence](https://github.com/seuristic/kattis-solutions/blob/main/magicsequence.cpp)       |
-| mali             | greedy          | [mali](https://github.com/seuristic/kattis-solutions/blob/main/mali.cpp)                         |
-| mastermind       | string matching | [mastermind](https://github.com/seuristic/kattis-solutions/blob/main/mastermind.cpp)             |
-| musicyourway     | custom sorting  | [musicyourway](https://github.com/seuristic/kattis-solutions/blob/main/musicyourway.cpp)         |
-| pivot            | prefix suffix   | [pivot](https://github.com/seuristic/kattis-solutions/blob/main/pivot.cpp)                       |
-| rings2           | bfs marking     | [rings2](https://github.com/seuristic/kattis-solutions/blob/main/rings2.cpp)                     |
-| snappereasy      | bit operations  | [snappereasy](https://github.com/seuristic/kattis-solutions/blob/main/snappereasy.cpp)           |
-| snapperhard      | bit operations  | [snapperhard](https://github.com/seuristic/kattis-solutions/blob/main/snapperhard.cpp)           |
-| sortofsorting    | custom sorting  | [sortofsorting](https://github.com/seuristic/kattis-solutions/blob/main/sortofsorting.cpp)       |
-| restaurant       | stack           | [restaurant](https://github.com/seuristic/kattis-solutions/blob/main/restaurant.cpp)             |
-| throwns          | stack           | [throwns](https://github.com/seuristic/kattis-solutions/blob/main/throwns.cpp)                   |
-| bungeebuilder    | stack           | [bungeebuilder](https://github.com/seuristic/kattis-solutions/blob/main/bungeebuilder.cpp)       |
-| sim              | linked list     | [sim](https://github.com/seuristic/kattis-solutions/blob/main/sim.cpp)                           |
-| teque            | deque           | [teque](https://github.com/seuristic/kattis-solutions/blob/main/teque.cpp)                       |
-| knigsoftheforest | priority queue  | [knigsoftheforest](https://github.com/seuristic/kattis-solutions/blob/main/knigsoftheforest.cpp) |
-| stockprices      | priority queue  | [stockprices](https://github.com/seuristic/kattis-solutions/blob/main/stockprices.cpp)           |
-| alphabetspam     | hashmap         | [alphabetspam](https://github.com/seuristic/kattis-solutions/blob/main/alphabetspam.cpp)         |
-| esej             | hashmap         | [esej](https://github.com/seuristic/kattis-solutions/blob/main/esej.cpp)                         |
-| greetingcard     | hashmap         | [greetingcard](https://github.com/seuristic/kattis-solutions/blob/main/greetingcard.cpp)         |
+| Solution                                                                                         | Approach        |
+| ------------------------------------------------------------------------------------------------ | --------------- |
+| [bitbybit](https://github.com/seuristic/kattis-solutions/blob/main/bitbybit.cpp)                 | bit operations  |
+| [bread](https://github.com/seuristic/kattis-solutions/blob/main/bread.cpp)                       | inversion count |
+| [classy](https://github.com/seuristic/kattis-solutions/blob/main/classy.cpp)                     | custom sorting  |
+| [funhouse](https://github.com/seuristic/kattis-solutions/blob/main/funhouse.cpp)                 | simulation      |
+| [hypercube](https://github.com/seuristic/kattis-solutions/blob/main/hypercube.cpp)               | bit operations  |
+| [magicsequence](https://github.com/seuristic/kattis-solutions/blob/main/magicsequence.cpp)       | radix sort      |
+| [mali](https://github.com/seuristic/kattis-solutions/blob/main/mali.cpp)                         | greedy          |
+| [mastermind](https://github.com/seuristic/kattis-solutions/blob/main/mastermind.cpp)             | string matching |
+| [musicyourway](https://github.com/seuristic/kattis-solutions/blob/main/musicyourway.cpp)         | custom sorting  |
+| [pivot](https://github.com/seuristic/kattis-solutions/blob/main/pivot.cpp)                       | prefix suffix   |
+| [rings2](https://github.com/seuristic/kattis-solutions/blob/main/rings2.cpp)                     | bfs marking     |
+| [snappereasy](https://github.com/seuristic/kattis-solutions/blob/main/snappereasy.cpp)           | bit operations  |
+| [snapperhard](https://github.com/seuristic/kattis-solutions/blob/main/snapperhard.cpp)           | bit operations  |
+| [sortofsorting](https://github.com/seuristic/kattis-solutions/blob/main/sortofsorting.cpp)       | custom sorting  |
+| [restaurant](https://github.com/seuristic/kattis-solutions/blob/main/restaurant.cpp)             | stack           |
+| [throwns](https://github.com/seuristic/kattis-solutions/blob/main/throwns.cpp)                   | stack           |
+| [bungeebuilder](https://github.com/seuristic/kattis-solutions/blob/main/bungeebuilder.cpp)       | stack           |
+| [sim](https://github.com/seuristic/kattis-solutions/blob/main/sim.cpp)                           | linked list     |
+| [teque](https://github.com/seuristic/kattis-solutions/blob/main/teque.cpp)                       | deque           |
+| [knigsoftheforest](https://github.com/seuristic/kattis-solutions/blob/main/knigsoftheforest.cpp) | priority queue  |
+| [stockprices](https://github.com/seuristic/kattis-solutions/blob/main/stockprices.cpp)           | priority queue  |
+| [alphabetspam](https://github.com/seuristic/kattis-solutions/blob/main/alphabetspam.cpp)         | hashmap         |
+| [esej](https://github.com/seuristic/kattis-solutions/blob/main/esej.cpp)                         | hashmap         |
+| [greetingcard](https://github.com/seuristic/kattis-solutions/blob/main/greetingcard.cpp)         | hashmap         |
+| [conformity](https://github.com/seuristic/kattis-solutions/blob/main/conformity.cpp)             | hashmap         |
