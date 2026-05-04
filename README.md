@@ -1,10 +1,10 @@
 # Kattis Problem Solutions
 
-This repository contains solutions to various Kattis competitive programming problems.
+This repository contains solutions to some Kattis problems.
 
 ## Solutions
 
-| Solution                                                                                         | Approach        |
+| Problem Solution                                                                                 | Approach        |
 | ------------------------------------------------------------------------------------------------ | --------------- |
 | [bitbybit](https://github.com/seuristic/kattis-solutions/blob/main/bitbybit.cpp)                 | bit operations  |
 | [bread](https://github.com/seuristic/kattis-solutions/blob/main/bread.cpp)                       | inversion count |
@@ -31,3 +31,5 @@ This repository contains solutions to various Kattis competitive programming pro
 | [esej](https://github.com/seuristic/kattis-solutions/blob/main/esej.cpp)                         | hashmap         |
 | [greetingcard](https://github.com/seuristic/kattis-solutions/blob/main/greetingcard.cpp)         | hashmap         |
 | [conformity](https://github.com/seuristic/kattis-solutions/blob/main/conformity.cpp)             | hashmap         |
+| [candydivision](https://github.com/seuristic/kattis-solutions/blob/main/candydivision.cpp)       | set/map         |
+| [compoundwords](https://github.com/seuristic/kattis-solutions/blob/main/compoundwords.cpp)       | set/map         |
