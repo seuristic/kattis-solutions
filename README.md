@@ -33,3 +33,5 @@ This repository contains solutions to some Kattis problems.
 | [conformity](https://github.com/seuristic/kattis-solutions/blob/main/conformity.cpp)             | hashmap         |
 | [candydivision](https://github.com/seuristic/kattis-solutions/blob/main/candydivision.cpp)       | set/map         |
 | [compoundwords](https://github.com/seuristic/kattis-solutions/blob/main/compoundwords.cpp)       | set/map         |
+| [awkwardparty](https://github.com/seuristic/kattis-solutions/blob/main/awkwardparty.cpp)         | hashmap         |
+| [basicinterpreter](https://github.com/seuristic/kattis-solutions/blob/main/basicinterpreter.cpp) | hashmap         |
