@@ -39,3 +39,4 @@ This repository contains solutions to some Kattis problems.
 | [busnumbers](https://github.com/seuristic/kattis-solutions/blob/main/busnumbers.cpp)             | sorting          |
 | [chopwood](https://github.com/seuristic/kattis-solutions/blob/main/chopwood.cpp)                 | priority queue   |
 | [shiritori](https://github.com/seuristic/kattis-solutions/blob/main/shiritori.cpp)               | hashset          |
+| [traveltheskies](https://github.com/seuristic/kattis-solutions/blob/main/traveltheskies.cpp)     | simulation       |
