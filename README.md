@@ -40,3 +40,5 @@ This repository contains solutions to some Kattis problems.
 | [chopwood](https://github.com/seuristic/kattis-solutions/blob/main/chopwood.cpp)                 | priority queue   |
 | [shiritori](https://github.com/seuristic/kattis-solutions/blob/main/shiritori.cpp)               | hashset          |
 | [traveltheskies](https://github.com/seuristic/kattis-solutions/blob/main/traveltheskies.cpp)     | simulation       |
+| [unionfind](https://github.com/seuristic/kattis-solutions/blob/main/unionfind.cpp)               | union-find       |
+| [ladice](https://github.com/seuristic/kattis-solutions/blob/main/ladice.cpp)                     | union-find       |
