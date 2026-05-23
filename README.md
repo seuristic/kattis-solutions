@@ -42,3 +42,5 @@ This repository contains solutions to some Kattis problems.
 | [traveltheskies](https://github.com/seuristic/kattis-solutions/blob/main/traveltheskies.cpp)     | simulation       |
 | [unionfind](https://github.com/seuristic/kattis-solutions/blob/main/unionfind.cpp)               | union-find       |
 | [ladice](https://github.com/seuristic/kattis-solutions/blob/main/ladice.cpp)                     | union-find       |
+| [almostunionfind](https://github.com/seuristic/kattis-solutions/blob/main/almostunionfind.cpp)   | union-find       |
+| [control](https://github.com/seuristic/kattis-solutions/blob/main/control.cpp)                   | union-find       |

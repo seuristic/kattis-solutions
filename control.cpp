@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+constexpr int MX = 5e5 + 5;
+
 class UnionFind {
   int num_sets;
   vector<int> p, rank, set_size;
@@ -22,33 +24,47 @@ public:
 
   int sizeOfSet(int x) { return set_size[findSet(x)]; }
 
-  void decSetSize(int x) { --set_size[findSet(x)]; }
-
-  bool unionSet(int x, int y) {
-    if (isSameSet(x, y)) return false;
+  void unionSet(int x, int y) {
+    if (isSameSet(x, y)) return;
     x = findSet(x), y = findSet(y);
     if (rank[x] > rank[y]) swap(x, y);
-    p[x] = y;
     if (rank[x] == rank[y]) ++rank[y];
+    p[x] = y;
     set_size[y] += set_size[x];
     --num_sets;
-    return true;
   }
 };
 
 void solve() {
-  int n, l;
-  cin >> n >> l;
-  UnionFind uf(l + 1);
+  int n;
+  cin >> n;
+  UnionFind uf(MX);
+  int ans = 0;
   for (int i = 0; i < n; ++i) {
-    int a, b;
-    cin >> a >> b;
-    uf.unionSet(a, b);
-    if (uf.sizeOfSet(a) > 0) {
-      cout << "LADICA\n";
-      uf.decSetSize(a);
-    } else cout << "SMECE\n";
+    int m;
+    cin >> m;
+    unordered_map<int, int> cnt;
+    for (int j = 0; j < m; ++j) {
+      int x;
+      cin >> x;
+      ++cnt[uf.findSet(x)];
+    }
+    bool valid = true;
+    for (auto [rep, sz] : cnt) {
+      if (sz != uf.sizeOfSet(rep)) {
+        valid = false;
+        break;
+      }
+    }
+    if (valid) {
+      ++ans;
+      int first_rep = cnt.begin()->first;
+      for (auto [rep, sz] : cnt) {
+        uf.unionSet(first_rep, rep);
+      }
+    }
   }
+  cout << ans << endl;
 }
 
 int main() {
