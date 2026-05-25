@@ -11,7 +11,7 @@ public:
     p.resize(n);
     rank.assign(n, 0);
     set_size.assign(n, 1);
-    set_sum.resize(n);
+    set_sum.assign(n, 0);
     id.resize(n);
     for (int i = 0; i < n; ++i) {
       p[i] = set_sum[i] = id[i] = i;
@@ -40,21 +40,22 @@ public:
   }
 
   void moveToSet(int x, int y) {
-    if (isSameSet(x, y)) return;
     int px = findSet(id[x]), py = findSet(id[y]);
+
+    if (px == py) return;
+
     --set_size[px];
     set_sum[px] -= x;
 
-    int new_node = next_node++;
+    p.push_back(py);
+    rank.push_back(0);
     set_size.push_back(1);
     set_sum.push_back(x);
-    rank.push_back(0);
 
-    p.push_back(py);
     ++set_size[py];
     set_sum[py] += x;
 
-    id[x] = new_node;
+    id[x] = next_node++;
   }
 
   long long sumOfSet(int x) { return set_sum[findSet(id[x])]; }
