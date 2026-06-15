@@ -44,3 +44,4 @@ This repository contains solutions to some Kattis problems.
 | [ladice](https://github.com/seuristic/kattis-solutions/blob/main/ladice.cpp)                     | union-find       |
 | [almostunionfind](https://github.com/seuristic/kattis-solutions/blob/main/almostunionfind.cpp)   | union-find       |
 | [control](https://github.com/seuristic/kattis-solutions/blob/main/control.cpp)                   | union-find       |
+| [fenwick](https://github.com/seuristic/kattis-solutions/blob/main/fenwick.cpp)                   | fenwick tree     |
