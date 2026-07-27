@@ -48,5 +48,4 @@ This repository contains solutions to some Kattis problems.
 | [supercomputer](https://github.com/seuristic/kattis-solutions/blob/main/supercomputer.cpp)       | fenwick tree     |
 | [sgcoin](https://github.com/seuristic/kattis-solutions/blob/main/sgcoin.cpp)                     | hashing          |
 | [closestsums](https://github.com/seuristic/kattis-solutions/blob/main/closestsums.cpp)           | binary search    |
-| [npuzzle](https://github.com/seuristic/kattis-solutions/blob/main/npuzzle.cpp)                   | manhattan distance |
-
+| [npuzzle](https://github.com/seuristic/kattis-solutions/blob/main/npuzzle.cpp)                   | complete seach   |
