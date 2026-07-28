@@ -49,3 +49,4 @@ This repository contains solutions to some Kattis problems.
 | [sgcoin](https://github.com/seuristic/kattis-solutions/blob/main/sgcoin.cpp)                     | hashing          |
 | [closestsums](https://github.com/seuristic/kattis-solutions/blob/main/closestsums.cpp)           | binary search    |
 | [npuzzle](https://github.com/seuristic/kattis-solutions/blob/main/npuzzle.cpp)                   | complete seach   |
+| [lektira](https://github.com/seuristic/kattis-solutions/blob/main/lektira.cpp)                   | complete seach   |
