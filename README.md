@@ -52,3 +52,6 @@ This repository contains solutions to some Kattis problems.
 | [lektira](https://github.com/seuristic/kattis-solutions/blob/main/lektira.cpp)                   | complete seach   |
 | [dreamer](https://github.com/seuristic/kattis-solutions/blob/main/dreamer.cpp)                   | complete search  |
 | [squaredeal](https://github.com/seuristic/kattis-solutions/blob/main/squaredeal.cpp)             | complete search  |
+| [islands](https://github.com/seuristic/kattis-solutions/blob/main/islands.cpp)                   | brute force      |
+| [trollhunt](https://github.com/seuristic/kattis-solutions/blob/main/trollhunt.cpp)               | math             |
+
