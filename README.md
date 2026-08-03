@@ -54,4 +54,5 @@ This repository contains solutions to some Kattis problems.
 | [squaredeal](https://github.com/seuristic/kattis-solutions/blob/main/squaredeal.cpp)             | complete search  |
 | [islands](https://github.com/seuristic/kattis-solutions/blob/main/islands.cpp)                   | brute force      |
 | [trollhunt](https://github.com/seuristic/kattis-solutions/blob/main/trollhunt.cpp)               | math             |
+| [falling](https://github.com/seuristic/kattis-solutions/blob/main/falling.cpp)                   | math             |
 
