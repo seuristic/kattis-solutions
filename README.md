@@ -55,4 +55,6 @@ This repository contains solutions to some Kattis problems.
 | [islands](https://github.com/seuristic/kattis-solutions/blob/main/islands.cpp)                   | brute force      |
 | [trollhunt](https://github.com/seuristic/kattis-solutions/blob/main/trollhunt.cpp)               | math             |
 | [falling](https://github.com/seuristic/kattis-solutions/blob/main/falling.cpp)                   | math             |
+| [musicalchairs](https://github.com/seuristic/kattis-solutions/blob/main/musicalchairs.cpp)       | josephus problem |
+| [toys](https://github.com/seuristic/kattis-solutions/blob/main/toys.cpp)                         | simulation       |
 
