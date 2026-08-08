@@ -57,4 +57,5 @@ This repository contains solutions to some Kattis problems.
 | [falling](https://github.com/seuristic/kattis-solutions/blob/main/falling.cpp)                   | math             |
 | [musicalchairs](https://github.com/seuristic/kattis-solutions/blob/main/musicalchairs.cpp)       | josephus problem |
 | [toys](https://github.com/seuristic/kattis-solutions/blob/main/toys.cpp)                         | simulation       |
+| [natjecanje](https://github.com/seuristic/kattis-solutions/blob/main/natjecanje.cpp)             | bitmask          |
 
