@@ -58,4 +58,5 @@ This repository contains solutions to some Kattis problems.
 | [musicalchairs](https://github.com/seuristic/kattis-solutions/blob/main/musicalchairs.cpp)       | josephus problem |
 | [toys](https://github.com/seuristic/kattis-solutions/blob/main/toys.cpp)                         | simulation       |
 | [natjecanje](https://github.com/seuristic/kattis-solutions/blob/main/natjecanje.cpp)             | bitmask          |
+| [fruitbaskets](https://github.com/seuristic/kattis-solutions/blob/main/fruitbaskets.cpp)           | inclusion-exclusion |
 
