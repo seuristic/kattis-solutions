@@ -60,4 +60,5 @@ This repository contains solutions to some Kattis problems.
 | [natjecanje](https://github.com/seuristic/kattis-solutions/blob/main/natjecanje.cpp)             | bitmask          |
 | [fruitbaskets](https://github.com/seuristic/kattis-solutions/blob/main/fruitbaskets.cpp)           | inclusion-exclusion |
 | [outofsorts](https://github.com/seuristic/kattis-solutions/blob/main/outofsorts.cpp)             | binary search    |
+| [monk](https://github.com/seuristic/kattis-solutions/blob/main/monk.cpp)                         | binary search    |
 
