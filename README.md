@@ -61,4 +61,5 @@ This repository contains solutions to some Kattis problems.
 | [fruitbaskets](https://github.com/seuristic/kattis-solutions/blob/main/fruitbaskets.cpp)           | inclusion-exclusion |
 | [outofsorts](https://github.com/seuristic/kattis-solutions/blob/main/outofsorts.cpp)             | binary search    |
 | [monk](https://github.com/seuristic/kattis-solutions/blob/main/monk.cpp)                         | binary search    |
+| [ceiling](https://github.com/seuristic/kattis-solutions/blob/main/ceiling.cpp)                   | binary tree      |
 
