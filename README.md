@@ -62,4 +62,5 @@ This repository contains solutions to some Kattis problems.
 | [outofsorts](https://github.com/seuristic/kattis-solutions/blob/main/outofsorts.cpp)             | binary search    |
 | [monk](https://github.com/seuristic/kattis-solutions/blob/main/monk.cpp)                         | binary search    |
 | [ceiling](https://github.com/seuristic/kattis-solutions/blob/main/ceiling.cpp)                   | binary tree      |
-
+| [froshweek2](https://github.com/seuristic/kattis-solutions/blob/main/froshweek2.cpp)             | greedy           |
+| [minimumscalar](https://github.com/seuristic/kattis-solutions/blob/main/minimumscalar.cpp)       | greedy, sorting  |
