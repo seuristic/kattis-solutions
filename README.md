@@ -66,3 +66,5 @@ This repository contains solutions to some Kattis problems.
 | [minimumscalar](https://github.com/seuristic/kattis-solutions/blob/main/minimumscalar.cpp)       | greedy, sorting        |
 | [birds](https://github.com/seuristic/kattis-solutions/blob/main/birds.cpp)                       | greedy, math           |
 | [vegetables](https://github.com/seuristic/kattis-solutions/blob/main/vegetables.cpp)             | greedy, priority queue |
+| [bank](https://github.com/seuristic/kattis-solutions/blob/main/bank.cpp)                         | greedy, priority queue |
+| [stockbroker](https://github.com/seuristic/kattis-solutions/blob/main/stockbroker.cpp)           | greedy                 |
