@@ -69,3 +69,4 @@ This repository contains solutions to some Kattis problems.
 | [bank](https://github.com/seuristic/kattis-solutions/blob/main/bank.cpp)                         | greedy, priority queue |
 | [stockbroker](https://github.com/seuristic/kattis-solutions/blob/main/stockbroker.cpp)           | greedy                 |
 | [prozor](https://github.com/seuristic/kattis-solutions/blob/main/prozor.cpp)                     | 2D prefix sum          |
+| [nesteddolls](https://github.com/seuristic/kattis-solutions/blob/main/nesteddolls.cpp)           | LIS, binary search     |
