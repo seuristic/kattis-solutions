@@ -68,3 +68,4 @@ This repository contains solutions to some Kattis problems.
 | [vegetables](https://github.com/seuristic/kattis-solutions/blob/main/vegetables.cpp)             | greedy, priority queue |
 | [bank](https://github.com/seuristic/kattis-solutions/blob/main/bank.cpp)                         | greedy, priority queue |
 | [stockbroker](https://github.com/seuristic/kattis-solutions/blob/main/stockbroker.cpp)           | greedy                 |
+| [prozor](https://github.com/seuristic/kattis-solutions/blob/main/prozor.cpp)                     | 2D prefix sum          |
