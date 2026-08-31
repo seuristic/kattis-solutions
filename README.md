@@ -70,3 +70,4 @@ This repository contains solutions to some Kattis problems.
 | [stockbroker](https://github.com/seuristic/kattis-solutions/blob/main/stockbroker.cpp)           | greedy                 |
 | [prozor](https://github.com/seuristic/kattis-solutions/blob/main/prozor.cpp)                     | 2D prefix sum          |
 | [nesteddolls](https://github.com/seuristic/kattis-solutions/blob/main/nesteddolls.cpp)           | LIS, binary search     |
+| [orders](https://github.com/seuristic/kattis-solutions/blob/main/orders.cpp)                     | dynamic programming    |
