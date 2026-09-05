@@ -4,8 +4,8 @@ This repository contains solutions to some Kattis problems.
 
 ## Solutions
 
-| Problem Solution                                                                                 | Approach               |
-| ------------------------------------------------------------------------------------------------ | ---------------------- |
+| Problem Solution                                                                                           | Approach               |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------- |
 | [bitbybit](https://github.com/seuristic/kattis-solutions/blob/main/solutions/bitbybit.cpp)                 | bit operations         |
 | [bread](https://github.com/seuristic/kattis-solutions/blob/main/solutions/bread.cpp)                       | inversion count        |
 | [classy](https://github.com/seuristic/kattis-solutions/blob/main/solutions/classy.cpp)                     | custom sorting         |
