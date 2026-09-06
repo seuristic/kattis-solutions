@@ -6,7 +6,9 @@ row in the `README.md` table.
 ## When asked to commit / push
 
 1. `git status --short --untracked-files=all` and `git diff` to see what changed.
-2. For every `solutions/<slug>.cpp` with no row in the `README.md` table — not just
+2. Move any root-level `<slug>.cpp` into `solutions/` (`git mv` if tracked, `mv` if
+   untracked) before doing anything else — solutions never stay at the repo root.
+3. For every `solutions/<slug>.cpp` with no row in the `README.md` table — not just
    the newly added ones — read it, infer the algorithm/technique used, and append a
    row to the table in `README.md`:
 
@@ -26,15 +28,15 @@ row in the `README.md` table.
    - `<approach>` is a short lowercase technique list, comma-separated:
      `greedy, sorting`, `2D prefix sum`, `binary search`.
 
-3. Always format `README.md` before staging — even when no rows were added:
+4. Always format `README.md` before staging — even when no rows were added:
    `npx --yes prettier --write README.md`
    (this is what keeps the column padding aligned — don't hand-pad). Verify with
    `npx --yes prettier --check README.md` before committing.
-4. Stage everything and commit with a conventional commit message:
+5. Stage everything and commit with a conventional commit message:
    - new solution(s): `feat: add solution for <slug>`
    - edits to existing solutions: `fix:` or `refactor:` as appropriate
    - README/structure only: `docs:` / `refactor:`
-5. Push only if the user asked for it.
+6. Push only if the user asked for it.
 
 Non-solution files (`a.out`, `file.in`, `file.out`, `expected.out`) are scratch —
 no README rows for them.
