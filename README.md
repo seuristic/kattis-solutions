@@ -74,3 +74,4 @@ This repository contains solutions to some Kattis problems.
 | [canonical](https://github.com/seuristic/kattis-solutions/blob/main/solutions/canonical.cpp)               | dynamic programming, greedy, binary search        |
 | [cycleseasy](https://github.com/seuristic/kattis-solutions/blob/main/solutions/cycleseasy.cpp)             | bitmask dynamic programming, modular arithmetic   |
 | [spiderman](https://github.com/seuristic/kattis-solutions/blob/main/solutions/spiderman.cpp)               | dynamic programming, minimax, path reconstruction |
+| [tight](https://github.com/seuristic/kattis-solutions/blob/main/solutions/tight.cpp)                       | digit dynamic programming, counting, probability  |
