@@ -75,3 +75,4 @@ This repository contains solutions to some Kattis problems.
 | [cycleseasy](https://github.com/seuristic/kattis-solutions/blob/main/solutions/cycleseasy.cpp)             | bitmask dynamic programming, modular arithmetic   |
 | [spiderman](https://github.com/seuristic/kattis-solutions/blob/main/solutions/spiderman.cpp)               | dynamic programming, minimax, path reconstruction |
 | [tight](https://github.com/seuristic/kattis-solutions/blob/main/solutions/tight.cpp)                       | digit dynamic programming, counting, probability  |
+| [reachableroads](https://github.com/seuristic/kattis-solutions/blob/main/solutions/reachableroads.cpp)     | graph, dfs, connected components                  |
