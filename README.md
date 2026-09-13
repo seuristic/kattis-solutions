@@ -76,5 +76,5 @@ This repository contains solutions to some Kattis problems.
 | [spiderman](https://github.com/seuristic/kattis-solutions/blob/main/solutions/spiderman.cpp)               | dynamic programming, minimax, path reconstruction |
 | [tight](https://github.com/seuristic/kattis-solutions/blob/main/solutions/tight.cpp)                       | digit dynamic programming, counting, probability  |
 | [reachableroads](https://github.com/seuristic/kattis-solutions/blob/main/solutions/reachableroads.cpp)     | graph, dfs, connected components                  |
-| [coast](https://github.com/seuristic/kattis-solutions/blob/main/solutions/coast.cpp)                       | grid, flood fill, dfs                             |
 | [countingstars](https://github.com/seuristic/kattis-solutions/blob/main/solutions/countingstars.cpp)       | grid, flood fill, dfs, connected components       |
+| [coast](https://github.com/seuristic/kattis-solutions/blob/main/solutions/coast.cpp)                       | grid, flood fill, dfs                             |
