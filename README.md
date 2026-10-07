@@ -78,3 +78,4 @@ This repository contains solutions to some Kattis problems.
 | [reachableroads](https://github.com/seuristic/kattis-solutions/blob/main/solutions/reachableroads.cpp)     | graph, dfs, connected components                  |
 | [countingstars](https://github.com/seuristic/kattis-solutions/blob/main/solutions/countingstars.cpp)       | grid, flood fill, dfs, connected components       |
 | [coast](https://github.com/seuristic/kattis-solutions/blob/main/solutions/coast.cpp)                       | grid, flood fill, dfs                             |
+| [conservation](https://github.com/seuristic/kattis-solutions/blob/main/solutions/conservation.cpp)         | topological sort, bfs, greedy                     |
