@@ -79,3 +79,4 @@ This repository contains solutions to some Kattis problems.
 | [countingstars](https://github.com/seuristic/kattis-solutions/blob/main/solutions/countingstars.cpp)       | grid, flood fill, dfs, connected components       |
 | [coast](https://github.com/seuristic/kattis-solutions/blob/main/solutions/coast.cpp)                       | grid, flood fill, dfs                             |
 | [conservation](https://github.com/seuristic/kattis-solutions/blob/main/solutions/conservation.cpp)         | topological sort, bfs, greedy                     |
+| [molekule](https://github.com/seuristic/kattis-solutions/blob/main/solutions/molekule.cpp)                 | tree, dfs, bipartite coloring                     |
