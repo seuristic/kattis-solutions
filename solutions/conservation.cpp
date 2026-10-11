@@ -5,7 +5,7 @@ int n, m;
 vector<vector<int>> AL;
 vector<int> lab, indeg;
 
-int simulate(int startLab) {
+int simulate(int start) {
   vector<int> deg = indeg;
 
   queue<int> q[2];
@@ -16,27 +16,24 @@ int simulate(int startLab) {
     }
   }
 
-  int curLab = startLab - 1;
+  int curr = start - 1;
   int switches = 0;
   int processed = 0;
 
   while (!q[0].empty() || !q[1].empty()) {
-    if (q[curLab].empty()) {
-      curLab ^= 1;
+    if (q[curr].empty()) {
+      curr ^= 1;
       ++switches;
     }
 
-    while (!q[curLab].empty()) {
-      int u = q[curLab].front();
-      q[curLab].pop();
+    while (!q[curr].empty()) {
+      int u = q[curr].front();
+      q[curr].pop();
 
       ++processed;
 
       for (int v : AL[u]) {
-        --deg[v];
-
-        // v becomes available.
-        if (deg[v] == 0) {
+        if (--deg[v] == 0) {
           q[lab[v] - 1].push(v);
         }
       }
