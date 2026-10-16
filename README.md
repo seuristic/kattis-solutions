@@ -81,3 +81,5 @@ This repository contains solutions to some Kattis problems.
 | [conservation](https://github.com/seuristic/kattis-solutions/blob/main/solutions/conservation.cpp)         | topological sort, bfs, greedy                     |
 | [molekule](https://github.com/seuristic/kattis-solutions/blob/main/solutions/molekule.cpp)                 | tree, dfs, bipartite coloring                     |
 | [caveexploration](https://github.com/seuristic/kattis-solutions/blob/main/solutions/caveexploration.cpp)   | bridges, dfs                                      |
+| [dominos](https://github.com/seuristic/kattis-solutions/blob/main/solutions/dominos.cpp)                   | strongly connected components, dfs                |
+| [promotions](https://github.com/seuristic/kattis-solutions/blob/main/solutions/promotions.cpp)             | topological sort, bfs                             |
