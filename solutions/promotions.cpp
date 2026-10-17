@@ -1,83 +1,58 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using ll = long long;
-
-ll nCr(int n, int r) {
-  cout << n << ' ' << r << '\n';
-  if (r < 0 || r > n) return 0;
-  if (r > n - r) r = n - r;
-
-  ll res = 1;
-  for (int i = 1; i <= r; ++i) {
-    res = (__int128_t)res * (n - i + 1) / i;
-  }
-  return res;
-}
-
 int a, b, e, p;
-vector<vector<int>> al;
-vector<int> indeg;
+vector<vector<int>> al, reach;
+
+void dfs(int u, int src) {
+  for (int v : al[u]) {
+    if (reach[src][v]) continue;
+
+    reach[src][v] = 1;
+    dfs(v, src);
+  }
+}
 
 void solve() {
   cin >> a >> b >> e >> p;
 
   al.assign(e, {});
-  indeg.assign(e, 0);
+  reach.assign(e, vector<int>(e, 0));
 
   for (int i = 0; i < p; ++i) {
     int u, v;
     cin >> u >> v;
-
-    ++indeg[v];
     al[u].push_back(v);
   }
 
-  int ans_a = -1, ans_b = -1;
-  queue<int> q;
-
   for (int u = 0; u < e; ++u) {
-    if (indeg[u] == 0) {
-      q.push(u);
-    }
+    dfs(u, u);
   }
 
-  int promoted = 0;
-  while (!q.empty()) {
-    int qsize = q.size();
-    if (promoted + qsize == a) ans_a = promoted + qsize;
-    else if (promoted + qsize > a) ans_a = promoted;
-    if (promoted + qsize == b) {
-      ans_b = promoted + qsize;
-      break;
-    } else if (promoted + qsize > b) {
-      ans_b = promoted;
-      break;
+  int ans_a = 0, ans_b = 0, ans_not_b = 0;
+
+  for (int u = 0; u < e; ++u) {
+    int before = 0, after = 0;
+
+    for (int v = 0; v < e; ++v) {
+      if (reach[u][v]) ++after;
+      if (reach[v][u]) ++before;
     }
-    promoted += qsize;
-    while (qsize--) {
-      int u = q.front();
-      q.pop();
-      for (int v : al[u]) {
-        if (--indeg[v] == 0) {
-          q.push(v);
-        }
-      }
-    }
+
+    if (after >= e - a) ++ans_a;
+    if (after >= e - b) ++ans_b;
+    if (before >= b) ++ans_not_b;
   }
 
   cout << ans_a << '\n';
   cout << ans_b << '\n';
-  cout << e - ans_b << '\n';
+  cout << ans_not_b << '\n';
 }
 
 int main() {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
 
-  int tc = 1;
-  // cin >> tc;
-  while (tc--) solve();
-
+  solve();
   return 0;
 }
