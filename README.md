@@ -83,3 +83,4 @@ This repository contains solutions to some Kattis problems.
 | [caveexploration](https://github.com/seuristic/kattis-solutions/blob/main/solutions/caveexploration.cpp)   | bridges, dfs                                      |
 | [dominos](https://github.com/seuristic/kattis-solutions/blob/main/solutions/dominos.cpp)                   | strongly connected components, dfs                |
 | [promotions](https://github.com/seuristic/kattis-solutions/blob/main/solutions/promotions.cpp)             | transitive closure, dfs                           |
+| [minspantree](https://github.com/seuristic/kattis-solutions/blob/main/solutions/minspantree.cpp)           | minimum spanning tree, prim's algorithm           |
