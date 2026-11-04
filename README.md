@@ -86,3 +86,5 @@ This repository contains solutions to some Kattis problems.
 | [minspantree](https://github.com/seuristic/kattis-solutions/blob/main/solutions/minspantree.cpp)           | minimum spanning tree, prim's algorithm           |
 | [muddyhike](https://github.com/seuristic/kattis-solutions/blob/main/solutions/muddyhike.cpp)               | minimax path, dijkstra                            |
 | [grid](https://github.com/seuristic/kattis-solutions/blob/main/solutions/grid.cpp)                         | bfs, shortest path                                |
+| [mallmania](https://github.com/seuristic/kattis-solutions/blob/main/solutions/mallmania.cpp)               | multi-source bfs, grid                            |
+| [oceancurrents](https://github.com/seuristic/kattis-solutions/blob/main/solutions/oceancurrents.cpp)       | 0-1 bfs, grid                                     |
