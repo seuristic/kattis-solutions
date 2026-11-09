@@ -88,3 +88,5 @@ This repository contains solutions to some Kattis problems.
 | [grid](https://github.com/seuristic/kattis-solutions/blob/main/solutions/grid.cpp)                         | bfs, shortest path                                |
 | [mallmania](https://github.com/seuristic/kattis-solutions/blob/main/solutions/mallmania.cpp)               | multi-source bfs, grid                            |
 | [oceancurrents](https://github.com/seuristic/kattis-solutions/blob/main/solutions/oceancurrents.cpp)       | 0-1 bfs, grid                                     |
+| [hidingplaces](https://github.com/seuristic/kattis-solutions/blob/main/solutions/hidingplaces.cpp)         | bfs, sorting                                      |
+| [knightjump](https://github.com/seuristic/kattis-solutions/blob/main/solutions/knightjump.cpp)             | bfs, grid                                         |
