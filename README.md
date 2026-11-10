@@ -90,3 +90,5 @@ This repository contains solutions to some Kattis problems.
 | [oceancurrents](https://github.com/seuristic/kattis-solutions/blob/main/solutions/oceancurrents.cpp)       | 0-1 bfs, grid                                     |
 | [hidingplaces](https://github.com/seuristic/kattis-solutions/blob/main/solutions/hidingplaces.cpp)         | bfs, sorting                                      |
 | [knightjump](https://github.com/seuristic/kattis-solutions/blob/main/solutions/knightjump.cpp)             | bfs, grid                                         |
+| [shortestpath2](https://github.com/seuristic/kattis-solutions/blob/main/solutions/shortestpath2.cpp)       | dijkstra, time-dependent edges                    |
+| [texassummers](https://github.com/seuristic/kattis-solutions/blob/main/solutions/texassummers.cpp)         | dijkstra, path reconstruction                     |
