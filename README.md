@@ -92,3 +92,5 @@ This repository contains solutions to some Kattis problems.
 | [knightjump](https://github.com/seuristic/kattis-solutions/blob/main/solutions/knightjump.cpp)             | bfs, grid                                         |
 | [shortestpath2](https://github.com/seuristic/kattis-solutions/blob/main/solutions/shortestpath2.cpp)       | dijkstra, time-dependent edges                    |
 | [texassummers](https://github.com/seuristic/kattis-solutions/blob/main/solutions/texassummers.cpp)         | dijkstra, path reconstruction                     |
+| [emptyingbaltic](https://github.com/seuristic/kattis-solutions/blob/main/solutions/emptyingbaltic.cpp)     | minimax path, dijkstra                            |
+| [invasion](https://github.com/seuristic/kattis-solutions/blob/main/solutions/invasion.cpp)                 | multi-source dijkstra, incremental updates        |
