@@ -94,3 +94,5 @@ This repository contains solutions to some Kattis problems.
 | [texassummers](https://github.com/seuristic/kattis-solutions/blob/main/solutions/texassummers.cpp)         | dijkstra, path reconstruction                     |
 | [emptyingbaltic](https://github.com/seuristic/kattis-solutions/blob/main/solutions/emptyingbaltic.cpp)     | minimax path, dijkstra                            |
 | [invasion](https://github.com/seuristic/kattis-solutions/blob/main/solutions/invasion.cpp)                 | multi-source dijkstra, incremental updates        |
+| [shortestpath3](https://github.com/seuristic/kattis-solutions/blob/main/solutions/shortestpath3.cpp)       | bellman-ford, negative cycles                     |
+| [xyzzy](https://github.com/seuristic/kattis-solutions/blob/main/solutions/xyzzy.cpp)                       | bellman-ford, positive cycles                     |
